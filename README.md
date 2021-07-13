@@ -1,1 +1,1 @@
-# Week3-React-AhmetFaruk-Uzunkaya
+# Week 3 React Project - Ahmet Faruk Uzunkaya
