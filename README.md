@@ -1,49 +1,43 @@
-# Week 3 React Project - Ahmet Faruk Uzunkaya
+## Rick & Morty Search App
 
----
+> By Celia, [@adalab](https://github.com/Adalab), Promo Kizzy 2020
 
-# Icerik
+![alt text](https://github.com/Celiamf/rick-and-morty-search-react-app/blob/master/src/images/app_screenshot.png?raw=true)
 
+¡Hello, visitor!
 
----
+Welcome to the **Rick & Morthy Search App**. This responsive search app will allow you to find info about some of your favorite characters from the Rick & Morty show. It was developed under the Adalab Bootcamp Module 3 on **React** (Kizzy Promotion, sept-dec 2020).
+Click [here](https://celiamf.github.io/rick-and-morty-search-react-app/#/) to start using the app!
 
-# Getting Started with Create React App
+## Developing
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Clone this repo if you wish to work with the code:
 
-## Available Scripts
+```shell
+git clone https://github.com/Celiamf/rick-and-morty-search-react-app.git
+cd rick-and-morty-search-react-app/
+```
 
-In the project directory, you can run:
+## Installing / Getting started
 
-### `npm start`
+This project was developed using **[React](https://github.com/facebook/create-react-app), React-Router, Proptypes y SASS**. Run the following commands in your terminal in order to get it up and running.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```shell
+npm install
+npm start
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Features
 
-### `npm test`
+- The character list displayed is taken from **[this Rick & Morty API](https://rickandmortyapi.com/documentation/#get-all-characters)**.
+- You may type a character name to filter the list results.
+- Use the available filters to narrow your search.
+- If you click on a character, you will navigate to a detailed card including further info.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Recognition
 
-### `npm run build`
+Dead or Alive & Happy face icons by Alfredo @ IconsAlfredo.com and Question Mark icon by Stan Diers, all from the [Noun Project](https://thenounproject.com/) || Favicon by [@deliriocolorista](https://www.domestika.org/es/deliriocolorista).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Licensing
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+The code in this project is licensed under MIT license.
